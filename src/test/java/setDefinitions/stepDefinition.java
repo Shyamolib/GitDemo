@@ -64,6 +64,7 @@ public class stepDefinition extends baseClass{
 		System.out.println("Commit to git");
 		System.out.println("Git Pull");
 		System.out.println("Develop branch");
+		System.out.println("commiting from original repo to new develop branch");
 		driver.quit();
 	}
 
