@@ -61,6 +61,7 @@ public class stepDefinition extends baseClass{
 	
 	@And("^Close browsers$")
 	public void Close_browsers(){
+		System.out.println("Commit to git");
 		driver.quit();
 	}
 
