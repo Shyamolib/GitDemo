@@ -63,6 +63,7 @@ public class stepDefinition extends baseClass{
 	public void Close_browsers(){
 		System.out.println("Commit to git");
 		System.out.println("Git Pull");
+		System.out.println("Develop branch");
 		driver.quit();
 	}
 
